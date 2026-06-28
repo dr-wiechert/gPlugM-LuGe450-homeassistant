@@ -51,7 +51,7 @@ Ich betreibe **Home Assistant** (HA) und wollte beides lokal auslesen: den **Str
 - Tasmota 15.3.0 (tasmota32), Build 2026.03.02, ESP32-C3
 
 **Home Assistant**
-- HA-Version: *[Ihre Version eintragen]*
+- HA-Version: 2026.6.4 (OS 17.3)
 - Add-ons: Mosquitto MQTT Broker; optional MQTT Explorer (für die Fehlersuche)
 
 **Netzwerk**
@@ -344,7 +344,12 @@ Die Byte-Position des Wasserwerts (Anker/Skip) ist **netzbetreiber- und konfigur
 
 ## Dank
 
-Die Dekodierung des VIS4-Telegramms und die finale Meter-Metrik entstanden mit tatkräftiger Unterstützung von **Hermann Hüni / gPlug (Gantrisch Energie AG)**. Merci!
+Diese Anleitung wäre ohne zwei wertvolle Unterstützungen nicht möglich gewesen:
+
+- **Hermann Hüni / gPlug (Gantrisch Energie AG)** – für die Erklärung der DLMS-Struktur der L+G-Zähler und die entscheidende Anker-/Skip-/Maske-Logik zur Dekodierung des Wasserwerts.
+- **Technische Betriebe Suhr (TBS), Messwesen** – für die präzisen Auskünfte zur Kanalbelegung (Wasser auf M-Bus-Kanal 2) und zur Vorkonfiguration der M-Bus-Kanäle.
+
+Merci an beide!
 
 ---
 
